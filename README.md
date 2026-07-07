@@ -3,7 +3,8 @@
 An end-to-end **Deep Learning-based clinical screening application** designed to detect **Retinopathy of Prematurity (ROP)** from infant retinal fundus images. The system uses **Transfer Learning with ResNet50** to classify retinal images and provides predictions through an interactive **Gradio** web interface.
 
 ---
-🛠️ Tech Stack Implemented
+🛠️ Tech Stack Implemented 
+
 Core AI Framework: TensorFlow 2.x & Keras API
 Network Backbone: ResNet50 (Transfer Learning with final 15 foundational layers unfrozen for domain fine-tuning)
 Image Processing Engine: OpenCV (python-cv2) & TensorFlow Image Core (tf.image)
